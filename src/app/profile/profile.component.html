@@ -1,0 +1,89 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="profile-info">
+            <i class="fas fa-user-circle"></i>
+            <div class="intext">
+                <div>Hello,</div>
+                <div> <span id=name>Preeti Singh</span></div>
+            </div>
+
+        </div>
+        <div class="heading" style="margin-top: 35px;"><i class="fas fa-shopping-bag"></i><a routerLink="/order">My
+                Orders</a></div>
+        <div class="heading"> <i class="fas fa-info-circle"></i>Account Info</div>
+        <div class="subheading" style="color:brown; font-weight: 800; font-size: 15px;"><a routerLink="/profile">Profile
+                Information</a></div>
+        <div class="subheading"><a routerLink="/address">Manage Address</a></div>
+        <div class="heading"> <i class="fas fa-credit-card"></i>Payment</div>
+        <div class="subheading"><a routerLink="/card">Save Cards</a></div>
+        <div class="subheading"><a routerLink="/upi">Save UPI IDs</a></div>
+        <div class="subheading"><a routerLink="/gift-card">Gift Cards</a></div>
+        <div class="heading"><i class="fas fa-box"></i>My Stuff</div>
+        <div class="subheading"><a routerLink="/wishlist">My Wishlist</a></div>
+        <div class="subheading"><a routerLink="/coupon">My Coupons</a></div>
+        <div class="subheading"><a routerLink="/review">My Reviews</a></div>
+        <div class="heading"> <i class="fas fa-cogs"></i>Settings</div>
+        <div class="subheading"><a routerLink="/notification">Notification</a></div>
+        <div class="heading"><i class="fas fa-sign-out-alt"></i>Log Out</div>
+
+
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading" style="font-size: 28px; color:black; margin-bottom: 35px; font-weight: bold;">Personal
+                Information</div>
+
+            <div class="form-group-row">
+                <div class="form-group">
+                    <label for="your-name">First Name</label>
+                    <input type="text" id="your-name" name="your-name" placeholder=" First Name">
+                </div>
+
+                <div class="form-group" style="margin-left: 100px;">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder=" Last Name">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="heading"
+                    style="margin-top: 10px; font-size: 20px; color:brown; font-family: 'Ubuntu',sans-serif;">Your
+                    Gender</div>
+                <div class="radio-container">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" class="radio-btn"></label>
+                    <span>Male</span>
+                </div>
+                <div class="radio-container">
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" class="radio-btn"></label>
+                    <span>Female</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" placeholder="abc@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder=" 1800-8907-90876">
+            </div>
+
+            <div class="form-group checkbox-group">
+                <input type="checkbox" id="agree-terms" name="agree-terms">
+                <label for="agree-terms" class="custom-checkbox"></label>
+                <span> I agree to all terms and conditions</span>
+            </div>
+
+
+            <button class="submit-button">Submit</button>
+        </div>
+    </div>
+
+</div>
+<app-footer></app-footer>

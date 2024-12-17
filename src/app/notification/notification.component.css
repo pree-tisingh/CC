@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-container {
+    display: flex;
+}
+
+.side-menu {
+    width: 215px;
+    background-color: white;
+    color: black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #FED7BA;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.profile-info div {
+    font-size: 25px;
+}
+
+.profile-info i {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#name {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #716C6C;
+}
+
+.heading i {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    margin-right: 10px;
+}
+
+.subheading {
+    font-size: 14px;
+    margin-left: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    line-height: 0.9;
+}
+.main-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    border-top:1px solid black ;
+}
+.subheading1 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* Styles for the checkbox container and options */
+.checkbox-container {
+    display: flex;
+    margin-left: 30px;
+    gap: 80px;
+}
+
+.checkbox-option {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the checkboxes */
+.checkbox-option input[type="checkbox"] {
+    margin-right: 8px; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}

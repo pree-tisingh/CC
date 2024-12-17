@@ -1,0 +1,84 @@
+<app-nav></app-nav>
+<div class="container2">
+    <div class="side-menu">
+        <li id="topic"><a routerLink="/">Categories</a></li>
+        <ul>
+            <li id="main"><a routerLink="/shop">Crystals</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/shop']" fragment="gemstone">Gemstones</a></li>
+                <li id="item"><a [routerLink]="['/shop']" fragment="diamond">Diamond</a></li>
+            </ul>
+            <li id="main"><a routerLink="/carat">Carats</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/carat']" fragment="gold">Gold</a></li>
+                <li id="item"><a [routerLink]="['/carat']" fragment="platinum">Platinum</a></li>
+            </ul>
+            <li id="main"><a routerLink="/product">Products</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/product']" fragment="coins">Coin</a></li>
+                <li id="item"><a [routerLink]="['/product']" fragment="biscuit">Biscuit</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Necklace">Necklace</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="bracelet">Bracelet</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Bangles">Bangles</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="earing">Earrings</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="pendant">Pendant</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="ring">Ring</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="mangalsutra">Mangalsutra</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="nosepins">Nosepins</a></li>
+            </ul>
+            <li id="main"><a routerLink="/bride">Bridal Special</a></li>
+            <ul>
+                <li id="item"><a routerLink="/explore">Enchanting</a></li>
+                <li id="item"><a routerLink="/explore">Trendsetter</a></li>
+                <li id="item"><a routerLink="/explore">Dazzling</a></li>
+                <li id="item"><a routerLink="/explore">Elegant</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Ocassional</a></li>
+            <ul>
+                <li id="item"><a routerLink="/gift">Birthday</a></li>
+                <li id="item"><a routerLink="/gift">Anniversary</a></li>
+                <li id="item"><a routerLink="/gift">Baby Shower</a></li>
+                <li id="item"><a routerLink="/gift">Festive Gifts</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Personalized</a></li>
+            <ul>
+                <li id="item"><a (click)="scrollToSection('box-jwel')">Jwellery Box</a></li>
+            </ul>
+        </ul>
+
+    </div>
+
+    <div class="centered-heading-container">
+
+        <div class="centered-heading">
+            <h1>Shop According to Ocassion</h1>
+        </div>
+
+        <div class="container-row">
+            <div class="container11-left">
+                <a routerLink="/gift">
+                    <img src="assets/img/Birthday.jpg" alt="Image 1" id="birthday">
+                </a>
+                <a routerLink="/gift">
+                    <img src="assets/img/anniversary.jpg" id="anniversary">
+                </a>
+                <a routerLink="/gift">
+                    <img src="assets/img/baby-birth.jpg" id="birth">
+                </a>
+
+            </div>
+            <div class="container11-right">
+                <a routerLink="/gift">
+                    <img src="assets/img/Personalized.jpg" id="gift">
+                </a>
+            </div>
+
+        </div>
+        <div class="container-banner">
+            <a routerLink="/gift">
+                <img src="assets/img/banner5.jpg" id="box-jwel">
+            </a>
+        </div>
+        <app-footer></app-footer>
+    </div>
+</div>

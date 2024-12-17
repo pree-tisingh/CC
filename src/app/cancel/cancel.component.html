@@ -1,0 +1,52 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="#">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px; "><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading">
+            <select (change)="redirectToPage($event)">
+    
+                <option value="#"style="font-weight: 600;" selected>FAQ</option>
+                <option value="FAQ_Login"style="font-weight: 600;">Login & Account</option>
+                <option value="FAQ_Refund"style="font-weight: 600;">Refund and Pickup</option>
+                <option value="Delivery"style="font-weight: 600;">Delivery</option>
+                <option value="cancel"style="font-weight: 600;">Cancellation</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+            <h4 style="margin-left: 20px; font-family: 'Poppins',sans-serif;  margin-top: 40px "> Q. How quickly can
+                I get my order delivered?</h4>
+            <p>Orders will be delivered by the date you see on the product page for your location.</p>
+
+
+            <h4 style="  margin-top: 40px ">Q. When will I get my order once its status changes to 'Out for
+                Delivery'?</h4>
+            <p>
+
+                Once an order is out for delivery, please wait till 11 PM for the delivery executive to deliver your
+                order. For products that have a faster delivery option to your location, the time by which it can be
+                delivered will be mentioned on the product page.</p>
+
+
+
+            <h4>Q. What is Open Box delivery? Is Open Box delivery available for all the products?</h4>
+            <p style="margin-bottom: 90px;">Open box delivery is a benificial program for the customers to validate
+                the physical condition of the product and accept the delivery only when its in a proper condition.
+                No, the Open Box Delivery option is available on select products and locations only.</p>
+
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    background-color: #FED7BA; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,205 @@
+<app-nav></app-nav>
+<div class="container2">
+    <div class="side-menu">
+        <li id="topic"><a routerLink="/">Categories</a></li>
+        <ul>
+            <li id="main"><a routerLink="/shop">Crystals</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/shop']" fragment="gemstone">Gemstones</a></li>
+                <li id="item"><a [routerLink]="['/shop']" fragment="diamond">Diamond</a></li>
+            </ul>
+            <li id="main"><a routerLink="/carat">Carats</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/carat']" fragment="gold">Gold</a></li>
+                <li id="item"><a [routerLink]="['/carat']" fragment="platinum">Platinum</a></li>
+            </ul>
+            <li id="main"><a routerLink="/product">Products</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/product']" fragment="coins">Coin</a></li>
+                <li id="item"><a [routerLink]="['/product']" fragment="biscuit">Biscuit</a></li>
+                <li id="item"><a (click)="scrollToSection('Necklace')">Necklace</a></li>
+                <li id="item"><a (click)="scrollToSection('bracelet')">Bracelet</a></li>
+                <li id="item"><a (click)="scrollToSection('Bangle')">Bangles</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="earing">Earrings</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="pendant">Pendant</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="ring">Ring</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="mangalsutra">Mangalsutra</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="nosepins">Nosepins</a></li>
+            </ul>
+            <li id="main"><a routerLink="/bride">Bridal Special</a></li>
+            <ul>
+                <li id="item"><a routerLink="/explore">Enchanting</a></li>
+                <li id="item"><a routerLink="/explore">Trendsetter</a></li>
+                <li id="item"><a routerLink="/explore">Dazzling</a></li>
+                <li id="item"><a routerLink="/explore">Elegant</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Ocassional</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Birthday</a></li>
+                <li id="item"><a routerLink="/ocassion">Anniversary</a></li>
+                <li id="item"><a routerLink="/ocassion">Baby Shower</a></li>
+                <li id="item"><a routerLink="/ocassion">Festive Gifts</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Personalized</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Jwellery Box</a></li>
+            </ul>
+        </ul>
+    </div>
+    <div class="centered-heading-container">
+
+        <div class="centered-heading">
+            <h1>Best Seller</h1>
+        </div>
+
+        <div class="container3" id="Necklace">
+            <div class="breadcrumb">
+                <p>Products > Necklace</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <a routerLink="/">
+                        <img src="assets/img/pnn.webp" alt="Image 1">
+                    </a>
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 95000</h5>
+                            <p>35% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/gemstone_necklace.jpg" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 3500</h5>
+                            <p>25% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/n11..jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container11">
+                    <img src="assets/img/n22.avif" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container3" id="bracelet">
+            <div class="breadcrumb">
+                <p>Products > Bracelet</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/gem.webp" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 2500</h5>
+                            <p>50% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/db.jpg" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 3500</h5>
+                            <p>25% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pb.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pl11.webp" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container3" id="Bangle">
+            <div class="breadcrumb">
+                <p>Products > Bangles</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/bangle.webp" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 2500</h5>
+                            <p>50% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/dbangles.jpg" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 3500</h5>
+                            <p>25% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/gold bangles.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container11">
+                    <img src="assets/img/Bangle.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h5>Rs 4500</h5>
+                            <p>15% off</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>
+    </div>
+ 
+</div>

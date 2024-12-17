@@ -1,0 +1,47 @@
+<app-admin-nav></app-admin-nav>
+<div class="profile-container">
+    <div class="side-menu">
+        <div class="subheading" id="product"><a routerLink="/admin">Product</a></div>
+        <div class="subheading" style="margin-left: 25px; "
+            style="margin-top: 10px; margin-left: 25px; color:brown; text-decoration: underline; text-decoration-thickness:2px ;"><a
+            routerLink="/category">Categories</a></div>
+        <div class="subheading" style="margin-left: 25px;"><a routerLink="/slider">Slider Images</a></div>
+        <div class="subheading" style="margin-left: 25px;"><a routerLink="/customer">Customers</a></div>
+        <div class="subheading" style="margin-left: 25px;"><a routerLink="/views">View Orders</a></div>
+        <div class="subheading" style="margin-left: 25px;"><a routerLink="/method">View Payments</a></div>
+
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; font-family:'Poppins,sans-serif'; width:900px; margin-top: 18px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:10px;">
+                Insert Category</div>
+            <div class="insert-product-section">
+                <form action="#" method="#" id="product-form">
+                    <div class="info">
+                        <label for="product-keyword">Category Name:</label>
+                        <select id="product-keyword" name="product-keyword">
+
+                            <option value="keyword1">Gold</option>
+                            <option value="keyword2">Diamond</option>
+                            <option value="keyword3">Platinum</option>
+                            <option value="keyword3">Gemstone</option>
+
+                        </select>
+                    </div>
+                    <div class="info">
+
+                        <label for="product-description">Category Description:</label>
+                        <textarea id="product-description" name="product-description" rows="10"
+                            placeholder="Enter product description"
+                            style="margin-left: 42px; font-family: 'Nutinosans',sans-serif; margin-top: 25px;"></textarea>
+                    </div>
+
+                    <button type="submit">Insert Category</button>
+                    <button type="button">+Add New Category</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

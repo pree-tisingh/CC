@@ -1,0 +1,59 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="#">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading" style="font-weight: 600;">
+            <select (change)="redirectToPage($event)">
+    
+                <option value="#" style="font-weight: 600;" selected>FAQ</option>
+                <option value="FAQ_Login" style="font-weight: 600;">Login & Account</option>
+                <option value="FAQ_Refund" style="font-weight: 600;">Refund and Pickup</option>
+                <option value="Delivery" style="font-weight: 600;">Delivery</option>
+                <option value="cancel" style="font-weight: 600;">Cancellation</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+            <h4 style="margin-left: 20px; font-family: 'Poppins',sans-serif;  margin-top: 40px "> Q. Do I need to
+                verify my mobile number or email address every time
+                I log in?</h4>
+            <p>As the verification step is a one time process, you won't have to do it again once your account is
+                verified.</p>
+
+            <h4 style="  margin-top: 40px ">Q. What is an OTP or verification code?</h4>
+            <p>An OTP (One Time Password) or verification code is a password/code used to verify your mobile number
+                or email ID when you log into your account for the first time.
+                OTP verification will be also be done in other cases like creating an account, password recovery,
+                and updating email/mobile details.</p>
+
+            <h4 style="  margin-top: 40px ">Q. Why do I need to verify my mobile number or email address to log into
+                my account?</h4>
+            <p>
+                To make sure that your account details are always secure, verification by OTP (One Time Password) is
+                important. This is a one-time process and you can log into your account without any hassles once
+                this is done.</p>
+
+
+            <h4 style="  margin-top: 40px ">Q. How can I change the password for my account?</h4>
+            <p>To change the password for your account, follow these simple steps:</p>
+            <p>1. Log in to your account</p>
+            <p>2. Go to My Account › Settings › Change Password</p>
+            <p>3. Enter your old password</p>
+            <p> 4. Enter your new password</p>
+            <p style="margin-bottom: 90px;">5. Choose 'Save Changes'</p>
+
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

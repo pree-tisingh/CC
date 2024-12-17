@@ -1,0 +1,57 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="/">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px; font-weight: 600;"><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading">
+            <select onchange="redirectToPage(this)">
+                <option value="#" selected>FAQ</option>
+                <option value="FAQ_Login">Login & Account</option>
+                <option value="FAQ_Refund">Refund and Pickup</option>
+                <option value="Delivery">Delivery</option>
+                <option value="cancel">Cancellation</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+            <h3 style="margin-left: 20px; font-family: 'Poppins',sans-serif;  margin-top: 40px ">Crystal & Carats
+                Jewelry > About Us</h3>
+            <p>Welcome to Crystal & Craft Jewelry, your source for beautiful and unique handcrafted jewelry pieces.
+                Our passion for craftsmanship and dedication to quality have made us a leading name in the world of
+                artisan jewelry.</p>
+            <p>At Crystal & Craft, each piece is meticulously crafted with precision and care. Our team of skilled
+                artisans combines traditional techniques with modern design, resulting in jewelry that reflects both
+                elegance and contemporary style.</p>
+
+            <h3 style="  margin-top: 40px ">Crystal & Carats Jewelry > Our Mission</h3>
+            <p>Our mission is to create jewelry that not only enhances your style but also carries a story. We
+                believe in the power of self-expression through accessories, and each piece in our collection is
+                designed to resonate with your unique personality.</p>
+
+            <h3 style="  margin-top: 40px ">Crystal & Carats Jewelry > Our Commitment to Sustainability</h3>
+            <p>Crystal & Craft Jewelry is committed to sustainable and ethical practices. We source our materials
+                responsibly, prioritize fair labor practices, and strive to minimize our environmental impact. By
+                choosing our jewelry, you are not only embracing beauty but also supporting a commitment to a better
+                and more sustainable future.</p>
+
+
+            <h3 style="  margin-top: 40px ">Crystal & Carats Jewelry > Contact Us</h3>
+            <p>If you have any questions or inquiries, feel free to reach out to us. We love hearing from our
+                customers!</p>
+
+            <h3 style="  margin-top: 60px; font-weight: 550;  font-size: 17px; margin-bottom: 90px;">Thank you for
+                choosing Crystal & Craft Jewelry. We look forward to being a part of your journey in expressing your
+                individuality through our stunning creations</h3>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

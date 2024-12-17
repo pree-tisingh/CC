@@ -1,0 +1,203 @@
+<app-nav></app-nav>
+<div class="container2">
+    <div class="side-menu">
+        <li id="topic"><a routerLink="/">Categories</a></li>
+        <ul>
+            <li id="main"><a routerLink="/shop">Crystals</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/shop']" fragment="gemstone">Gemstones</a></li>
+                <li id="item"><a [routerLink]="['/shop']" fragment="diamond">Diamond</a></li>
+            </ul>
+            <li id="main"><a routerLink="/carat">Carats</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/carat']" fragment="gold">Gold</a></li>
+                <li id="item"><a [routerLink]="['/carat']" fragment="platinum">Platinum</a></li>
+            </ul>
+            <li id="main"><a routerLink="/product">Products</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/product']" fragment="coins">Coin</a></li>
+                <li id="item"><a [routerLink]="['/product']" fragment="biscuit">Biscuit</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Necklace">Necklace</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="bracelet">Bracelet</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Bangles">Bangles</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="earing">Earrings</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="pendant">Pendant</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="ring">Ring</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="mangalsutra">Mangalsutra</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="nosepins">Nosepins</a></li>
+            </ul>
+            <li id="main"><a routerLink="/bride">Bridal Special</a></li>
+            <ul>
+                <li id="item"><a (click)="scrollToSection('enchanting')">Enchanting</a></li>
+                <li id="item"><a (click)="scrollToSection('trendsetter')">Trendsetter</a></li>
+                <li id="item"><a (click)="scrollToSection('dazzling')">Dazzling</a></li>
+                <li id="item"><a (click)="scrollToSection('elegant')">Elegant</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Ocassional</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Birthday</a></li>
+                <li id="item"><a routerLink="/ocassion">Anniversary</a></li>
+                <li id="item"><a routerLink="/ocassion">Baby Shower</a></li>
+                <li id="item"><a routerLink="/ocassion">Festive Gifts</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Personalized</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Jwellery Box</a></li>
+            </ul>
+        </ul>
+
+
+    </div>
+    <div class="centered-heading-container">
+
+        <div class="centered-heading">
+            <h1>Explore Bridal Collections</h1>
+        </div>
+        <div class="container3" id="enchanting">
+            <div class="breadcrumb">
+                <p>Bride Special > Enchanting</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/b1.jpg" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b3.png" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/south.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="container3" id="trendsetter">
+            <div class="breadcrumb">
+                <p>Bride Special > Trendsetter</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/b115.webp" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b6.jpg" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b2.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container3" id="dazzling">
+            <div class="breadcrumb">
+                <p>Bride Special > Dazzling</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/b19.webp" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b9.webp" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b11.png" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container3" id="elegant">
+            <div class="breadcrumb">
+                <p>Bride Special > Elegant</p>
+            </div>
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/b7.jpg" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b12.webp" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/b20.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <app-footer></app-footer>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="#">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px; "><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading">
+            <select (change)="redirectToPage($event)">
+    
+                <option value="#" style="font-weight: 600;" selected>FAQ</option>
+                <option value="FAQ_Login" style="font-weight: 600;">Login & Account</option>
+                <option value="FAQ_Refund" style="font-weight: 600;">Refund and Pickup</option>
+                <option value="Delivery" style="font-weight: 600;">Delivery</option>
+                <option value="cancel"style="font-weight: 600;">Cancellation</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+            <h4 style="margin-left: 20px; font-family: 'Poppins',sans-serif;  margin-top: 40px "> Q. What are the
+                modes of refund available after cancellation?</h4>
+            <p>The different modes of refund available are:</p>
+            <p> Payment mode: Cash on Delivery</p>
+            <p> 1. UPI (Amount less than Rs 1000) - Refund will be processed to the UPI account for which UPI ID has
+                to be shared</p>
+            <p> 2. Gift Card (Amount less than Rs 10000) - Refund will be processed to Gift Card account</p>
+            <p>3. Bank account (IMPS/NEFT) - Refund will be processed to bank account for which bank details have to
+                be shared
+                Payment mode: Prepaid</p>
+            <p> 4. Back to source - Refund will be processed to the payment mode(Debit/Credit card, NEFT, UPI) used
+                to pay for the order2. Gift Card (Amount less than Rs 10000) - Refund will be processed to Gift Card
+                account.</p>
+
+            <h4 style="  margin-top: 40px ">Q. My pickup is completed, when the refund will get processed?</h4>
+            <p>
+                It usually takes 24 hrs of time for the pickup status to get updated in the system, post which a refund is processed from seller e</p>
+
+            <h4 style="  margin-top: 40px ">Q. Can I ask the delivery agent to reschedule the pickup date?</h4>
+            <p>
+                Yes. You can schedule the pickup date based on your convenience.</p>
+
+
+            <h4 style="  margin-top: 40px ">Q. Can I change the address for the pick-up the of item(s) in my order?</h4>
+            <p style="margin-bottom: 90px;">If the pincode of the new address is serviceable for pick-up, the address can be changed while creating the return. The address cannot be changed in case the new address is not serviceable.</p>
+            
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

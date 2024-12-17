@@ -1,0 +1,216 @@
+<app-nav></app-nav>
+<div class="container1">
+    <img src="assets/img/pic (1).jpg" alt="bg-image">
+    <div class="container-light">
+        <h2>All that Glitters is not
+            Gold & Platinum</h2>
+    </div>
+</div>
+<div class="container2">
+    <div class="side-menu">
+        <li id="topic"><a routerLink="/">Categories</a></li>
+        <ul>
+            <li id="main"><a routerLink="/shop">Crystals</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/shop']" fragment="gemstone">Gemstones</a></li>
+                <li id="item"><a [routerLink]="['/shop']" fragment="diamond">Diamond</a></li>
+            </ul>
+            <li id="main"><a routerLink="/carat">Carats</a></li>
+            <ul>
+                <li id="item"><a (click)="scrollToSection('gold')">Gold</a></li>
+                <li id="item"><a (click)="scrollToSection('platinum')">Platinum</a></li>
+            </ul>
+            <li id="main"><a routerLink="/product">Products</a></li>
+            <ul>
+                <li id="item"><a routerLink="/">Coin</a></li>
+                <li id="item"><a routerLink="/">Biscuit</a></li>
+                <li id="item"><a routerLink="/best1">Necklace</a></li>
+                <li id="item"><a routerLink="/">Bracelet</a></li>
+                <li id="item"><a routerLink="/">Bangles</a></li>
+                <li id="item"><a routerLink="/best2">Earrings</a></li>
+                <li id="item"><a routerLink="/">Pendant</a></li>
+                <li id="item"><a routerLink="/">Ring</a></li>
+                <li id="item"><a routerLink="/best3">Mangalsutra</a></li>
+                <li id="item"><a routerLink="/">Nosepins</a></li>
+            </ul>
+            <li id="main"><a routerLink="/bride">Bridal Special</a></li>
+            <ul>
+                <li id="item"><a routerLink="/explore">Enchanting</a></li>
+                <li id="item"><a routerLink="/">Trendsetter</a></li>
+                <li id="item"><a routerLink="/">Dazzling</a></li>
+                <li id="item"><a routerLink="/">Elegant</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Ocassional</a></li>
+            <ul>
+                <li id="item"><a href="/">Birthday</a></li>
+                <li id="item"><a href="/">Anniversary</a></li>
+                <li id="item"><a href="/">Baby Shower</a></li>
+                <li id="item"><a href="/">Festive Gifts</a></li>
+            </ul>
+            <li id="main"><a href="/">Personalized</a></li>
+            <ul>
+                <li id="item"><a href="/">Jwellery Box</a></li>
+            </ul>
+        </ul>
+
+    </div>
+    <div class="centered-heading-container">
+
+        <div class="centered-heading">
+            <h1>Carats</h1>
+        </div>
+        <div class="container3" id="gold">
+            <div class="breadcrumb">
+                <p>Shop > Carats > Gold</p>
+            </div>
+
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/gr.jpg" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Ring</h4>
+                            <h5>Rs 5500</h5>
+                            <p>30% off</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/ge.webp" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Earring</h4>
+                            <h5>Rs 8500</h5>
+                            <p>35% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/gb.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Bracelet</h4>
+                            <h5>Rs 12500</h5>
+                            <p>45% off</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/gp.webp" alt="Image 5">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Pendant</h4>
+                            <h5>Rs 3800</h5>
+                            <p>40% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container11">
+                    <img src="assets/img/bangle.webp" alt="Image 6">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Bangles</h4>
+                            <h5>Rs 25000</h5>
+                            <p>30% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/gn.jpg" alt="Image 7">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Necklace</h4>
+                            <h5>Rs 45000</h5>
+                            <p>50% off</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container4" id="platinum">
+            <div class="breadcrumb">
+                <p>Shop > Carats > Platinum</p>
+            </div>
+
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/pr.jpg" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Ring</h4>
+                            <h5>Rs 8500</h5>
+                            <p>30% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pe.webp" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Earring</h4>
+                            <h5>Rs 12500</h5>
+                            <p>25% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pb.jpg" alt="Image 3">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Bracelet</h4>
+                            <h5>Rs 18500</h5>
+                            <p>35% off</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/pp.jpg" alt="Image 5">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Pendant</h4>
+                            <h5>Rs 7900</h5>
+                            <p>40% off</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pbb.webp" alt="Image 6">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Bangles</h4>
+                            <h5>Rs 56900</h5>
+                            <p>40% off</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/pnn.webp" alt="Image 7">
+                    <div class="mix">
+                        <div class="content-container">
+                            <h4>Necklace</h4>
+                            <h5>Rs 82200</h5>
+                            <p>50% off</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>
+    </div>

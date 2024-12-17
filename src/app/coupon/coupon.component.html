@@ -1,0 +1,87 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="profile-info">
+            <i class="fas fa-user-circle"></i>
+            <div class="intext">
+                <div>Hello,</div>
+                <div> <span id=name>Preeti Singh</span></div>
+            </div>
+
+        </div>
+        <div class="heading" style="margin-top: 35px;"><i class="fas fa-shopping-bag"></i><a routerLink="/order">My
+                Orders</a></div>
+        <div class="heading"> <i class="fas fa-info-circle"></i>Account Info</div>
+        <div class="subheading" ><a routerLink="/profile">Profile
+                Information</a></div>
+        <div class="subheading"><a routerLink="/address">Manage Address</a></div>
+        <div class="heading"> <i class="fas fa-credit-card"></i>Payment</div>
+        <div class="subheading"><a routerLink="/card">Save Cards</a></div>
+        <div class="subheading"><a routerLink="/upi">Save UPI IDs</a></div>
+        <div class="subheading"><a routerLink="/gift-card">Gift Cards</a></div>
+        <div class="heading"><i class="fas fa-box"></i>My Stuff</div>
+        <div class="subheading"><a routerLink="/wishlist">My Wishlist</a></div>
+        <div class="subheading"style="color:brown; font-weight: bold; font-size: 13px;"><a routerLink="/coupon">My Coupons</a></div>
+        <div class="subheading"><a routerLink="/review">My Reviews</a></div>
+        <div class="heading"> <i class="fas fa-cogs"></i>Settings</div>
+        <div class="subheading"><a routerLink="/notification">Notification</a></div>
+        <div class="heading"><i class="fas fa-sign-out-alt"></i>Log Out</div>
+
+
+    </div>
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading" style="font-size: 28px; color:black; margin-bottom: 35px; font-weight: bold;">
+                My Coupons</div>
+            <div class="coupons-container">
+                <div class="coupon-box">
+                    <div class="coupon-text">
+                        <p style="font-weight: bold; margin-bottom: 5px; ">Get Extra 20% Off</p>
+                        <p>Get extra 20% off on 1 item(s) (price inclusive of cashback/coupon)</p>
+                    </div>
+                    <div class="valid-till">
+                        <p>Valid till 31 Jan, 2024</p>
+                    </div>
+                </div>
+
+                <!-- Example 2 -->
+                <div class="coupon-box">
+                    <div class="coupon-text">
+                        <p style="font-weight: bold;  margin-bottom: 5px; ">Get Extra 15% Off</p>
+                        <p>Get extra 15% off on 2 item(s) (price inclusive of cashback/coupon)</p>
+                    </div>
+                    <div class="valid-till">
+                        <p>Valid till 15 Feb, 2024</p>
+                    </div>
+                </div>
+                <!-- Example 3 -->
+                <div class="coupon-box">
+                    <div class="coupon-text">
+                        <p style="font-weight: bold;  margin-bottom: 5px;  ">Get Extra 25% Off</p>
+                        <p>Get extra 25% off on 3 item(s) (price inclusive of cashback/coupon)</p>
+                    </div>
+                    <div class="valid-till">
+                        <p>Valid till 28 Feb, 2024</p>
+                    </div>
+                </div>
+                <!-- Example 4 -->
+                <div class="coupon-box">
+                    <div class="coupon-text">
+                        <p style="font-weight: bold;  margin-bottom: 5px; ">Get Extra 30% Off</p>
+                        <p>Get extra 30% off on 4 item(s) (price inclusive of cashback/coupon)</p>
+                    </div>
+                    <div class="valid-till">
+                        <p>Valid till 15 Mar, 2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-view">
+                <button id="view">View More</button>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
+

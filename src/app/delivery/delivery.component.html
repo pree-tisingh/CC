@@ -1,0 +1,50 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="#">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px; "><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading">
+            <select (change)="redirectToPage($event)">
+    
+                <option value="#"style="font-weight: 600;" selected>FAQ</option>
+                <option value="FAQ_Login"style="font-weight: 600;">Login & Account</option>
+                <option value="FAQ_Refund"style="font-weight: 600;">Refund and Pickup</option>
+                <option value="Delivery"style="font-weight: 600;">Delivery</option>
+                <option value="cancel"style="font-weight: 600;">Cancellation</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+            <h4 style="margin-left: 20px; font-family: 'Poppins',sans-serif;  margin-top: 40px "> Q. How quickly can I get my order delivered?</h4>
+            <p>Orders will be delivered by the date you see on the product page for your location.</p>
+            
+            <h4 style="  margin-top: 40px ">Q. My order has reached the nearest delivery hub, but why isn't it out for delivery yet?</h4>
+            <p>
+                The courier service delivering your order are responsible for making sure that your order reaches you within the delivery date. Rest assured, you'll get an SMS once your shipment is out for delivery.</p>
+
+            <h4 style="  margin-top: 40px ">Q. Why can't I track my order even though it has been shipped?</h4>
+            <p>
+                
+Courier services usually take upto 24 hours to activate tracking for an order once it's shipped. Please check again after the mentioned time frame.</p>
+
+
+            <h4 style="  margin-top: 40px ">Q. What are the standard shipping speeds and delivery charges?</h4>
+            <p>Standard Delivery charges and shipping timelines vary based on several factors like the seller, type of the product, price of the product, order value and delivery pin code. Delivery timeline is displayed on the product page. You can choose a delivery pin code on the product page and it will display the list of sellers who cater to that location and the applicable shipping charges.</p>
+            <h4>Q. How do I track my order?</h4>
+            <p style="margin-bottom: 90px;">Once your order gets shipped, a tracking ID gets generated. You can find this in the 'Orders' section of your app. If your order has been shipped with Blue Dart, you can use the tracking ID to find out where your order is currently by clicking here: bluedart.com. Similarly for other couriers, you can use the respective tracking ID to track your order on that courier's website.</p>
+            
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,217 @@
+.profile-container {
+    display: flex;
+}
+
+.side-menu {
+    width: 200px;
+    background-color: white;
+    color: black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #FED7BA;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.profile-info div {
+    font-size: 25px;
+}
+
+.profile-info i {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#name {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #716C6C;
+}
+
+.heading i {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    margin-right: 10px;
+}
+
+.subheading {
+    font-size: 15px;
+    margin-left: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    line-height: 0.9;
+}
+
+.main-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    border-top:1px solid black ;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: normal;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 19px;
+    color: brown;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: calc(62% - 20px);
+}
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+}
+
+.gender-group {
+    display: flex;
+    align-items: center;
+}
+
+.gender-group input {
+    margin-right: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+.submit-button {
+    background-color: brown;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.radio-container input[type="radio"] {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.radio-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    position: relative;
+    margin-right: 5px;
+}
+
+.radio-btn::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.radio-container input[type="radio"]:checked+.radio-btn::before {
+    transform: translate(-50%, -50%) scale(1);
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.checkbox-group input {
+    display: none;
+}
+
+.custom-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    position: relative;
+    margin-right: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.custom-checkbox::before {
+    content: '\2713';
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease-in-out;
+}
+
+.checkbox-group input:checked+.custom-checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.checkbox-group label {
+    margin-left: 10px;
+
+}

@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-container {
+    display: flex;
+}
+
+.side-menu {
+    width: 215px;
+    background-color: white;
+    color: black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #FED7BA;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.profile-info div {
+    font-size: 25px;
+}
+
+.profile-info i {
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#name {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: brown;
+    font-weight: bold;
+}
+
+.heading {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #716C6C;
+}
+
+.heading i {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    color: black;
+    margin-right: 10px;
+}
+
+.subheading {
+    font-size: 14px;
+    margin-left: 27px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    line-height: 0.9;
+}
+.main-content {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 30px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-left: 1px solid black;
+    border-top:1px solid black ;
+}
+.submit-button {
+    background-color: rgb(198, 81, 81);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.payment-form {
+    max-width: 400px;
+   margin-right: 400px;
+   margin-top: 25px;
+   position: relative;
+}
+.card-actions {
+    position: absolute;
+    top: 230px;
+    right: 10px;
+    
+}
+
+.edit-button,
+.delete-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: rgb(204, 129, 129);
+}
+
+.payment-label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'poppins',sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color:green;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

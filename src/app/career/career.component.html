@@ -1,0 +1,65 @@
+<app-nav></app-nav>
+<div class="profile-container">
+    <!-- Side Menu -->
+    <div class="side-menu">
+        <div class="heading" style="margin-top: 25px;"><a routerLink="#">Help & Info</a></div>
+        <div class="subheading" style="margin-left: 38px; "><a routerLink="/about">About Us</a></div>
+        <div class="subheading" style="margin-left: 38px;font-weight: 600;"><a routerLink="/career">Careers</a></div>
+        <div class="subheading" style="margin-left: 38px;"><a routerLink="/blog">Blog</a></div>
+        <div class="subheading">
+            <select (change)="redirectToPage($event)">
+    
+                <option value="#" selected>FAQ</option>
+                <option value="FAQ_Login">Login & Account</option>
+                <option value="FAQ_Refund">Refund and Pickup</option>
+                <option value="Delivery">Delivery</option>
+                <option value="cancel">Cancellation</option>
+            </select>
+
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="personal-info-container">
+            <div class="heading"
+                style="font-size: 24px; color:black; margin-bottom: 35px; font-weight: normal; text-align: center; background-color: rgb(225, 145, 145); padding:20px;">
+                Welcome to 24X7 Help Centre of Crystals and Carats</div>
+
+
+            <p>Welcome to Crystal and Carats, where jewelry tells stories, and craftsmanship is an art. If you're
+                passionate about creating meaningful pieces in a collaborative and creative environment, join us!</p>
+
+            <h4 style="  margin-top: 40px ">Why Crystal and Craft?</h4>
+            <h4 style="  margin-top: 30px "> 🌟 Artisanal Excellence:</h4>
+            <p>
+                Be part of our legacy of handcrafted excellence, where each piece is a unique masterpiece.</p>
+
+            <h4 style="  margin-top: 30px ">💎 Creative Innovation:</h4>
+            <p>
+                Express your creativity in a supportive environment that values originality and fresh perspectives.</p>
+
+
+            <h4 style="  margin-top: 30px ">✨ Commitment to Quality:</h4>
+            <p>Join a team dedicated to crafting high-quality jewelry that exceeds expectations.</p>
+            <h4 style="  margin-top: 40px ">Current Openings:</h4>
+
+            <h4 style="  margin-top: 30px ">1. Jewelry Artisan:</h4>
+            <p>Bring designs to life with precision and care, showcasing your love for detail.</p>
+            <h4 style="  margin-top: 30px ">2. Creative Designer:</h4>
+            <p>Contribute to our collection with your innovative and artistic vision.</p>
+            <h4 style="  margin-top: 30px ">3. Quality Assurance Specialist:</h4>
+            <p>Ensure every piece meets our uncompromising standards for excellence.</p>
+            <h4 style="  margin-top: 30px ">4. Customer Care Advocate:</h4>
+            <p>Share your passion for jewelry, providing exceptional service to help customers find their perfect piece.
+            </p>
+            <h4 style="  margin-top: 40px ">How To Apply:</h4>
+            <p>Ready to craft moments that last a lifetime? Send your resume and a cover letter to
+                careers&amp;commat;crystalandcarats.com.</p>
+            <p style="margin-top: 30px; margin-bottom: 90px;">Join Crystal and Carats - Where Tradition Meets
+                Innovation!</p>
+
+
+
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

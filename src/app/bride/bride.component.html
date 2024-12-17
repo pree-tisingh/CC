@@ -1,0 +1,111 @@
+<app-nav></app-nav>
+<div class="container2">
+    <div class="side-menu">
+        <li id="topic"><a routerLink="/">Categories</a></li>
+        <ul>
+            <li id="main"><a routerLink="/shop">Crystals</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/shop']" fragment="gemstone">Gemstones</a></li>
+                <li id="item"><a [routerLink]="['/shop']" fragment="diamond">Diamond</a></li>
+            </ul>
+            <li id="main"><a routerLink="/carat">Carats</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/carat']" fragment="gold">Gold</a></li>
+                <li id="item"><a [routerLink]="['/carat']" fragment="platinum">Platinum</a></li>
+            </ul>
+            <li id="main"><a routerLink="/product">Products</a></li>
+            <ul>
+                <li id="item"><a [routerLink]="['/product']" fragment="coins">Coin</a></li>
+                <li id="item"><a [routerLink]="['/product']" fragment="biscuit">Biscuit</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Necklace">Necklace</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="bracelet">Bracelet</a></li>
+                <li id="item"><a [routerLink]="['/best1']" fragment="Bangles">Bangles</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="earing">Earrings</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="pendant">Pendant</a></li>
+                <li id="item"><a [routerLink]="['/best2']" fragment="ring">Ring</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="mangalsutra">Mangalsutra</a></li>
+                <li id="item"><a [routerLink]="['/best3']" fragment="nosepins">Nosepins</a></li>
+            </ul>
+            <li id="main"><a routerLink="/bride">Bridal Special</a></li>
+            <ul>
+                <li id="item"><a routerLink="/explore">Enchanting</a></li>
+                <li id="item"><a routerLink="/explore">Trendsetter</a></li>
+                <li id="item"><a routerLink="/explore">Dazzling</a></li>
+                <li id="item"><a routerLink="/explore">Elegant</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Ocassional</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Birthday</a></li>
+                <li id="item"><a routerLink="/ocassion">Anniversary</a></li>
+                <li id="item"><a routerLink="/ocassion">Baby Shower</a></li>
+                <li id="item"><a routerLink="/ocassion">Festive Gifts</a></li>
+            </ul>
+            <li id="main"><a routerLink="/ocassion">Personalized</a></li>
+            <ul>
+                <li id="item"><a routerLink="/ocassion">Jwellery Box</a></li>
+            </ul>
+        </ul>
+
+    </div>
+    <div class="centered-heading-container">
+
+        <div class="centered-heading">
+            <h1>Welcome to Bridal Jwellery Special</h1>
+        </div>
+        <div class="container-row">
+            <div class="container11">
+                <img src="assets/img/show-stopper.png" alt="Image 1">
+                <div class="mix">
+                    <div class="content-container">
+                        <a routerLink="/explore">
+                            <button id="Explore">Explore Collection</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container11">
+                <img src="assets/img/8_Mararashtrian.png" alt="Image 2">
+                <div class="mix">
+                    <div class="content-container">
+                        <a routerLink="/explore">
+                            <button id="Explore">Explore Collection</button>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container3">
+
+            <div class="container-row">
+                <div class="container11">
+                    <img src="assets/img/12_gujarati.png" alt="Image 1">
+                    <div class="mix">
+                        <div class="content-container">
+                            <a routerLink="/explore">
+                                <button id="Explore">Explore Collection</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container11">
+                    <img src="assets/img/elegant-bride.png" alt="Image 2">
+                    <div class="mix">
+                        <div class="content-container">
+                            <a routerLink="/explore">
+                                <button id="Explore">Explore Collection</button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <app-footer></app-footer>
+    </div>
+</div>
